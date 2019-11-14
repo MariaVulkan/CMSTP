@@ -5,7 +5,7 @@
     classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
 	<script language="JScript">
 		<![CDATA[
-			var r = new ActiveXObject("WScript.Shell").Popup("bnRjdnVsa2FuaHRfZXNzZW5jZV9pc19jaGFuZ2VfY2hhbmdlX2lzX3N1cnZpdmFsCg== ",,"ffl46",0);	
+			var r = new ActiveXObject("WScript.Shell").Popup("bnRjdnVsa2FuaHRfZXNzZW5jZV9pc19jaGFuZ2VfY2hhbmdlX2lzX3N1cnZpdmFsCg== ",1,"ffl46",0+16);	
 	
 		]]>
 </script>
